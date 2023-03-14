@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    padding-bottom: 50px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.filter_section {
+    display: flex;
+}
+
+.input_content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px 15px 10px 0;
+}
+
+.input_content > select, input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.input_content > input {
+    height: 26px;
+}
+
+.section_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
