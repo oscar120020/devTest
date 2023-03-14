@@ -1,6 +1,7 @@
 
 export const orderArrayBy = (arr: any[], by: string) => {
     if (by.length === 0) return arr;
+    if (arr.length === 0) return [];
 
     let newArr = [...arr];
     if (by === 'timestamp') {
