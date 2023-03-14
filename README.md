@@ -4,7 +4,7 @@ El proyecto se divide en dos carpetas, server y test.
 
 En test se encuentra todo el código relacionado al frontend, hecho con React.
 
-El servidor está hecho para servir como proxy, ya que hay un fallo de cors al hacer request a la Api de BitMEX.
+El servidor está hecho para servir como proxy, ya que hay un fallo de cors al hacer request a la Api de BitMEX desde el cliente.
 
 ### Recomendaciones
 
